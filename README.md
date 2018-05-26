@@ -50,7 +50,7 @@ An efficient implementation of nearest neighbor tree scheme (NNT) in a general w
 1. **Step 1: Rank Selection**
     * there’s a leader - process 0 in our case.
     * leader picks a number p(leader) and sends this number and ID to all of its neighbors; neighbors choose a number p(v)
-    from [p,p-1] and send these numbers and their IDs to their neighbors and so on. Clearly, multiple nodes can have same p’s.
+    from \[p, p-1) and send these numbers and their IDs to their neighbors and so on. Clearly, multiple nodes can have same p’s.
     * if there are multiple messages from neighbors (there will be), then decide your rank according to the first one received
     and just store the rest ones.
     * rank of a vertex r(v) comprises both of its ID(v) and this number p(v).
