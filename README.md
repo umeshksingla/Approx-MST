@@ -1,7 +1,7 @@
 
 ## Distributed Systems Spring 2018: Project Report
 
-### Approximat MST, based on
+### Approximate MST, based on
 
 ### M. Khan, G. Pandurangan, A fast distributed approximation algorithm for minimum spanning trees. Distributed Computing 20(6): 391-402 (2008)
 
